@@ -14985,15 +14985,14 @@ nav ul li a:hover {
 }
 
 #demo-1 {
-  position: relative;
-  /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
-  overflow: hidden;
-  /* to bound the empty top space created by inner element's top margin */
-  width: 100%;
-  background-color: #999;
-  min-height: 640px;
-  display: grid;
-  align-items: center;
+    position: relative;
+    /* can either be relative, absolute or fixed. If position is not set (i.e. static), it would be set to "relative" by script */
+    overflow: hidden;
+    /* to bound the empty top space created by inner element's top margin */
+    width: 100%;
+    background-image: url('~/Traversal-Starter/images/1.jpg');
+    display: grid;
+    align-items: center;
 }
 
 .demo-inner-content {
