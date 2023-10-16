@@ -16,6 +16,7 @@ namespace TravelCoreProje.Controllers
         [HttpGet]
         public IActionResult DestinationDetails(int id)
         {
+            ViewBag.i = id;
             var values = destinationManager.TgetByID(id);
             return View(values);
         }
